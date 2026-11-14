@@ -112,8 +112,8 @@ Training and validation accuracy and loss for the selected CNN–LSTM.
 Training performance continued improving after the best validation checkpoints. Both hybrids showed substantial validation fluctuations. For the selected model, validation accuracy fell to 64.49% at epoch 9 before recovering. Reported evaluation uses the retained epoch 7 checkpoint, rather than the final epoch. The cause of the abrupt fluctuations was not isolated.
 
 ### Confusion matrix and error analysis
-
-![Selected CNN–LSTM confusion matrices showing raw counts and proportions within each actual class](outputs/cnn_lstm_selected_test_confusion_matrices.png)
+Selected CNN–LSTM confusion matrices showing raw counts and proportions within each actual class.
+<img width="3780" height="1440" alt="cnn_lstm_selected_test_confusion_matrices" src="https://github.com/user-attachments/assets/d582e1d1-0591-4035-9896-c008b62ec39d" />
 
 Rows represent actual categories and columns represent predicted categories. The left panel shows image counts; the right panel shows proportions within each actual class. Diagonal values in the normalized matrix therefore represent class recall.
 
